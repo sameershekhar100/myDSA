@@ -19,13 +19,12 @@
 //    v[x][y]=ans;
 //    return ans;
 //}
-//int calculate(string s1,string s2){
-//    vector<vector<int>> v(s1.length()+1,vector<int>(s2.length()+1,-1)) ;
 //
-//    return LCS(s1,s2,0,0,v);
-//}
 //int LCS1(string s1,string s2){
+//
+//
 //    vector<vector<int>> v(s1.length()+1,vector<int>(s2.length()+1,0));
+////    return LCS(s1,s2,0,0,v);
 //    for (int i = 1; i < s1.length()+1; ++i) {
 //        for (int j = 1; j < s2.length()+1; ++j) {
 //            if(s1[s1.length()-i]==s2[s2.length()-j] ){

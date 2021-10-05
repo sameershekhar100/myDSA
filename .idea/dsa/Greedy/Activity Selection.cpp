@@ -17,7 +17,7 @@
 //        int count = 1;
 //        int currentTime=v[0].second;
 //        for (int i = 1; i < n; i++) {
-//            if (v[i ].first > currentTime) {
+//            if (v[i].first > currentTime) {
 //                count++;
 //                currentTime=v[i].second;
 //            }
@@ -27,6 +27,8 @@
 //}
 //int main(){
 //    int n;
+//    char c='2';
+//    string  s= to_string(c);
 //    cin>>n;
 //    int start[n],end[n];
 //    for (int i = 0; i < n; ++i) {

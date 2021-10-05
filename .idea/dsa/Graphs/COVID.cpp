@@ -1,6 +1,6 @@
-/* TODO Given the N*M binary matrix, 1 represents the healthy person, and 0 represents a patient affected by a coronavirus.
- The task is to check the minimum time required for all persons to get affected.
- A patient at [i, j] cell affects a person at cell [i, j-1], [i, j+1] [i+1, j] and [i-1, j] in one second.*/
+///* TODO Given the N*M binary matrix, 1 represents the healthy person, and 0 represents a patient affected by a coronavirus.
+// The task is to check the minimum time required for all persons to get affected.
+// A patient at [i, j] cell affects a person at cell [i, j-1], [i, j+1] [i+1, j] and [i-1, j] in one second.*/
 //#include <bits/stdc++.h>
 //
 //using namespace std;

@@ -1,40 +1,47 @@
 //#include "bits/stdc++.h"
+//
 //using namespace std;
-//void getDFS(int** edges,int n,int sv,bool* isVisited,vector<int>* v1){
+//
+//void getDFS(int **edges, int n, int sv, bool *isVisited, vector<int> *v1) {
 //    v1->push_back(sv);
-//    isVisited[sv]= true;
+//    isVisited[sv] = true;
 //    for (int i = 0; i < n; ++i) {
-//        if(i==sv){
+//        if (i == sv) {
 //            continue;
 //        }
-//        if(edges[sv][i]==1&&!isVisited[i]){
-//            getDFS(edges,n,i,isVisited,v1);
+//        if (edges[sv][i] == 1 && !isVisited[i]) {
+//            getDFS(edges, n, i, isVisited, v1);
 //        }
 //    }
 //}
-//void DFS(int** edges,int n){
-//    bool *isVisited=new bool[n];
-//    vector<vector<int>*> v;
-//    for(int i=0;i<n;i++){
-//        isVisited[i]= false;
+//
+//
+//
+//void DFS(int **edges, int n) {
+//    bool *isVisited = new bool[n];
+//    vector<vector<int> *> v;
+//    for (int i = 0; i < n; i++) {
+//        isVisited[i] = false;
 //    }
-//    for (int i = 0; i <n ; ++i) {
-//        if(!isVisited[i]){
-//            vector<int>* v1=new vector<int> ;
-//            getDFS(edges,n,i,isVisited,v1);
+//    for (int i = 0; i < n; ++i) {
+//        if (!isVisited[i]) {
+//            vector<int> *v1 = new vector<int>;
+//            getDFS(edges, n, i, isVisited, v1);
 //            v.push_back(v1);
 //        }
 //    }
-//    for(int i=0;i<v.size();i++){
-//        for(vector<int>::iterator it=v[i]->begin();it!=v[i]->end();++it){
-//            cout<<*it<<" ";
+//    for (int i = 0; i < v.size(); i++) {
+//        for (vector<int>::iterator it = v[i]->begin(); it != v[i]->end(); ++it) {
+//            cout << *it << " ";
 //        }
-//        cout<<endl;
+//        cout << endl;
 //    }
 //
 //}
+//
 //int main() {
 //    int n, e;
+//
 //    cin >> n >> e;
 //    int **edges = new int *[n];
 //    for (int i = 0; i < n; i++) {
@@ -45,13 +52,13 @@
 //    }
 //    for (int i = 0; i < e; i++) {
 //        int f, s;
+//
 //        cin >> f >> s;
 //        edges[f][s] = 1;
 //        edges[s][f] = 1;
 //    }
 //
 //    DFS(edges, n);
-//
 //
 //
 //    for (int i = 0; i < n; ++i) {
