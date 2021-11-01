@@ -54,16 +54,13 @@
 //
 //    string a;
 //
-////    cin >> a;
-////
-////    if (ispar(a)) {
-////        cout << "balanced" << endl;
-////    } else {
-////        cout << "not balanced" << endl;
-////    }
-//    vector<int> v;
-//    v.push_back(1);
-//    v.push_back(2);
-//    cout<<v[0];
+//    cin >> a;
+//
+//    if (ispar(a)) {
+//        cout << "balanced" << endl;
+//    } else {
+//        cout << "not balanced" << endl;
+//    }
+//
 //
 //}

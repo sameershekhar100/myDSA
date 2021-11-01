@@ -1,10 +1,10 @@
-#include "bits/stdc++.h"
-#include "C:\Users\LENOVO\CLionProjects\myDSA\.idea\dsa\Trees\BinaryTrees\BinaryTreeNode.h"
-#include "C:\Users\LENOVO\CLionProjects\myDSA\.idea\dsa\LinkedList\Node.h"
-#include "BSTclass.h"
-
-
-using namespace std;
+//#include "bits/stdc++.h"
+//#include "C:\Users\LENOVO\CLionProjects\myDSA\.idea\dsa\Trees\BinaryTrees\BinaryTreeNode.h"
+//#include "C:\Users\LENOVO\CLionProjects\myDSA\.idea\dsa\LinkedList\Node.h"
+//#include "BSTclass.h"
+//
+//
+//using namespace std;
 
 //void printlevelBT(BinaryTree<int> *node) {
 //    if (node == NULL)
