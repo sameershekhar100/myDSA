@@ -3,7 +3,7 @@
 //using namespace std;
 //bool calculate(string);
 //int main(){
-//    string a="a+b";
+//    string a="(a+b";
 //    bool res= calculate(a);
 //    cout<<res;
 //    return 0;
