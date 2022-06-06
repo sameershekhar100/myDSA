@@ -1,29 +1,9 @@
 #include <bits/stdc++.h>
 #include <cmath>
-
-int fastpow(int a, int b);
-
+#define MOD 1000000007
 using namespace std;
-long gcd(int a,int b) {
-    if (b == 0)
-        return a;
-    return gcd(b, a % b);
-}
-
- vector<bool> isPrime(long long int n) {
-     vector<bool> a(n + 1, true);
-
-     a[0] = false;
-     a[1] = false;
-     for (int i = 2; i * i <= n; i++) {
 
 
-         for (int j = 2 * i; j <= n; j += i) {
-             a[j] = false;
-         }
-     }
-     return a;
- }
 //int main() {
 //
 //    int n;

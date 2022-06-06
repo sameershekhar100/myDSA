@@ -2,9 +2,7 @@
 #include <cmath>
 
 using namespace std;
-#define MOD 1000000007
 
-template<class T>
 long fastpow(long a, long b, long mod) {
     long res = 1;
     while (b > 0) {

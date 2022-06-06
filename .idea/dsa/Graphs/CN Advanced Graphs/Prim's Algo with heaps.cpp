@@ -9,7 +9,7 @@
 //class cmp{
 //public:
 //    int operator()(const Edge& e1,const Edge& e2) {
-//        return e1.weight > e2.weight;
+//        return e1.weight > e2.weight;//ascending order sort
 //    }
 //};
 //void prims(int n,vector<vector<int>> adj[]){

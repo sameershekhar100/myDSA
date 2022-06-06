@@ -11,7 +11,6 @@
 //    }
 //    return minVertex;
 //}
-//
 //void prims(int **edges, int n) {
 //
 //    bool *isVisited = new bool[n];

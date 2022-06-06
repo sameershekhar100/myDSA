@@ -15,7 +15,7 @@
 //}
 //
 //int getParent(int vertex, int *parent) {
-//    if (parent[vertex] == vertex) {
+//    if (parent[vertex] == vertex){
 //        return vertex;
 //    }
 //    return getParent(parent[vertex], parent);
@@ -25,7 +25,7 @@
 //    //1 sort the edge in increasing order
 //    sort(edge, edge + e, compare);
 //    //for union find algo to check cyclicity
-//    int *parent = new int(n);
+//    int *parent = new int[n];
 //    Edge *output = new Edge[n - 1]; //MST should be a tree with n vertices and n-1 edges
 //    for (int i = 0; i < n; ++i) {
 //        parent[i] = i;
