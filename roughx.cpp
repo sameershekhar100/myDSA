@@ -1,44 +1,48 @@
-#include<iostream>
+#include <bits/stdc++.h>
+#include <string>
 
+#define lli long long int
+#define ll long long
+#define REP(v) for(auto &i:v)
+#define all(x) x.begin(),x.end()
+#define rep(i, j, n, in) for (int i=j ; i<n ; i+=in)
+#define vi vector<int>
+#define vpii <vector<pair<int,int>>
+#define heap priority_queue
+#define MOD 1000000007
 using namespace std;
-int mat[100][100];
+
 void solve() {
-
-
-    for (int i = 0; i < 100; i++) {
-        for (int j = 0; j < 100; j++) {
-            int z;
-            cin >> z;
-            mat[i][j] = z;
+    int n, m;
+    cin>>n>>m;
+    vi v2(m);
+    multiset<int> v1;
+    for(int i=0;i<n;i++) {
+        int z;cin>>z;
+        v1.insert(z);
+    }
+    REP(v2) cin>>i;
+    //sort(all(v1));
+    for(int i=0;i<m;i++){
+        auto it=v1.upper_bound(v2[i]);
+        if(it==v1.begin()) cout<<"-1\n";
+        else{
+            cout<<*(--it)<<"\n";
+            v1.erase(it);
         }
     }
-    int y=0;
-    for(int i=99;i>=0;i--){
-        if(mat[99][i]==2){
-            y=i;
-            break;
-        }
-    }
-    int i=99;
-    while(i!=0){
-        if(mat[i-1][y]==1){
-            i--;
-            continue;
-        }
-        else if(mat[i][y-1]==1){
-            y--;
-            continue;
-        }
-        else y++;
-    }
-    printf("#%d %d",1,y);
 
 }
 
 int main() {
-    int t;
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    int t = 1;
+    // cin>>t;
+    while (t--)
+        solve();
 
-    string s="Sameer";
-    int idx=s.length()-2;
-    cout<<s.substr(0,idx)+"sam"+s.substr(idx);
+
+    return 0;
 }
+
